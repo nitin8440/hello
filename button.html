@@ -13,7 +13,10 @@
     <p>Manufacturer: <span id="manufacturer"></span></p>
     <p>Platform: <span id="platform"></span></p>
     <p>Version: <span id="version"></span></p>
-    <img src="https://raw.githubusercontent.com/nitin8440/hello/main/1.jpeg">
+    <img src="https://raw.githubusercontent.com/nitin8440/hello/main/1.jpeg" alt="Example Image" width="600" height="400">
+
+    <!-- Add the button for file download -->
+    <button id="downloadButton">Download File</button>
 
     <script>
         // Wait for the document to be ready
@@ -23,6 +26,18 @@
             document.getElementById("manufacturer").innerText = navigator.vendor;
             document.getElementById("platform").innerText = navigator.platform;
             document.getElementById("version").innerText = navigator.appVersion;
+
+            // Handle the click event for the download button
+            document.getElementById("downloadButton").addEventListener("click", function() {
+                // URL of the file to be downloaded
+                const fileUrl = "https://bpl.bhel.com/android/sup_bills.apk";
+
+                // Create a link element to trigger the download
+                const downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "example.apk"; // The name of the downloaded file
+                downloadLink.click();
+            });
         });
     </script>
 </body>
