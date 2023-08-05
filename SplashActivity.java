@@ -1,10 +1,9 @@
-package xnspy.app.spy;
+package xnspy.app.xnspy;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
-import xnspy.app.xnspy.C0893R;
 
 public class SplashActivity extends AppCompatActivity {
     /* access modifiers changed from: protected */

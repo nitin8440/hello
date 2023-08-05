@@ -1,4 +1,4 @@
-package xnspy.app.spy;
+package xnspy.app.xnspy;
 
 import android.os.Build;
 

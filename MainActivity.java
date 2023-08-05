@@ -1,4 +1,4 @@
-package xnspy.app.spy;
+package xnspy.app.xnspy;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -33,7 +33,6 @@ import com.hsalf.smilerating.SmileRating;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
-import xnspy.app.xnspy.C0893R;
 
 public class MainActivity extends AppCompatActivity {
     public static final String ACTION_WIFI_DISPLAY_SETTINGS = "android.settings.WIFI_DISPLAY_SETTINGS";
