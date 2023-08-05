@@ -1,11 +1,10 @@
-package xnspy.app.spy;
+package xnspy.app.xnspy;
 
 import android.app.Application;
 import com.facebook.ads.AdError;
 import com.facebook.ads.C0443Ad;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
-import xnspy.app.xnspy.C0893R;
 
 public class MyApplication extends Application {
     public static MyApplication intance = null;
